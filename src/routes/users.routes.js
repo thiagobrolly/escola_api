@@ -8,7 +8,7 @@ const usersRoutes = Router();
 usersRoutes.get('/', UserController.index);
 usersRoutes.get('/:id', UserController.show);
 
-usersRoutes.post('/', loginRequired, UserController.store);
+usersRoutes.post('/', UserController.store);
 usersRoutes.put('/', loginRequired, UserController.update);
 usersRoutes.delete('/', loginRequired, UserController.delete);
 
