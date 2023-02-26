@@ -1,5 +1,6 @@
 node_modules
 .env
 dist
-images/*
+uploads/images/*
+!uploads/images/.gitkeep
 NOTION.md
